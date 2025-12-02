@@ -1,0 +1,98 @@
+:root {
+  --green: #5f9341;
+  --bg: #f5f5f5;
+  --card: #ffffff;
+  --border: #e0e0e0;
+  --text: #333;
+}
+body {
+  margin: 0;
+  padding: 4px;
+  font-family: Inter, Arial, sans-serif;
+  min-width: 460px;
+  background: var(--bg);
+  color: var(--text);
+}
+.options {
+  margin: 8px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#input-el {
+  width: 100%;
+  padding: 4px;
+  border: 1.5px solid var(--green);
+  box-sizing: border-box;
+  font-size: 14px;
+  white-space: pre-wrap;
+  resize: vertical;
+  min-height: 44px;
+}
+button {
+  padding: 4px 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--green);
+  transition: 0.15s ease;
+  font-size: 14px;
+  background: var(--green);
+  color: white;
+}
+#input-del {
+  background: white;
+  color: var(--green);
+}
+button:hover {
+  opacity: 0.8;
+  transform: translateY(-1px);
+}
+.copy-btn:hover {
+  transform: translateX(1px);
+}
+.delete-item-btn:hover {
+  transform: translateX(-1px);
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  font-size: 10px;
+}
+li {
+  margin-top: 2px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4px;
+}
+code {
+  margin: 0;
+  flex: 1;
+  word-break: break-all;
+  padding: 4px;
+}
+li:hover {
+  border-color: var(--green);
+}
+a {
+  font-size: 12px;
+  color: var(--green);
+  font-weight: 100;
+  text-decoration: none;
+  word-break: break-all;
+  padding: 3px 4px;
+}
+a:hover {
+  text-decoration: underline;
+}
+.copy-btn,
+.delete-item-btn {
+  padding: 0;
+  opacity: 0.5;
+  height: 20px;
+}
+code.lead-text {
+  white-space: pre-wrap;
+}
