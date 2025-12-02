@@ -4,6 +4,7 @@ A clean and lightweight Chrome extension designed to quickly **save text snippet
 
 Perfect for developers, researchers, students, and anyone who needs quick-access bookmarks and code storage directly inside their browser.
 
+![UI Screenshot](UI.png)
 ---
 
 ## 🌟 Features
@@ -33,16 +34,6 @@ Every saved item features a fast “Copy” button for easy transfer of the lead
 
 ### 6. 💾 Auto-Save with LocalStorage
 Your saved leads list persists automatically, even after closing and reopening Chrome.
-
----
-
-## 🧩 Screenshots
-
-> **Note:** Replace these placeholder images after capturing your real extension screenshots.
-
-| Popup UI | Saving Items |
-| :---: | :---: |
-| ![Popup UI Placeholder](https://via.placeholder.com/300x260?text=Popup+UI) | ![Saving Items Placeholder](https://via.placeholder.com/300x260?text=Saving+Items) |
 
 ---
 
@@ -150,8 +141,8 @@ We welcome contributions, suggestions, and bug reports!
 
 All enhancements, bug fixes, and UI improvements are appreciated!
 
+---
+
 ## 📄 License
 
 This project is licensed under the **MIT License**.
-
----
