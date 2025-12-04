@@ -4,7 +4,8 @@ A clean and lightweight Chrome extension designed to quickly **save text snippet
 
 Perfect for developers, researchers, students, and anyone who needs quick-access bookmarks and code storage directly inside their browser.
 
-![UI Screenshot](UI.png)
+<img src="UI.png" width="500"/>
+
 ---
 
 ## 🌟 Features
