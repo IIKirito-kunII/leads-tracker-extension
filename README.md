@@ -1,7 +1,9 @@
 # 🚀 Leads Tracker – Lightweight Chrome Extension
 * A clean and lightweight Chrome extension designed to quickly **save text snippets, code, and current tabs** with a single click.
 * Perfect for developers, researchers, students, and anyone who needs quick-access bookmarks and code storage directly inside their browser.
-<img src="UI.png" width="500"/>
+<div align="center">
+  <img src="UI.png" width="500"/>
+</div>
 
 ---
 
